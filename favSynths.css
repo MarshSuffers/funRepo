@@ -12,12 +12,12 @@ li {
 }
 
 body {
-  background-color: #f4f4ff;
+  background-color: white;
 }
 
 nav {
-  background-color: #666a86;
-  color: aliceblue;
+  background-color: #432534;
+  color: #fcb9b2;
   font-size: 30px;
   position: fixed;
   z-index: 3;
@@ -31,7 +31,7 @@ nav {
 }
 
 .links a {
-  color: aliceblue;
+  color: #fcb9b2;
   text-decoration: none;
   margin-top: 25px;
 }
@@ -61,11 +61,14 @@ nav {
 
 .logo img {
   position: relative;
-  top: -15px;
+  top: -26px;
   right: -300px;
   display: inline-block;
   max-width: 25%;
-  width: 225px;
+  width: 150px;
+  background-color: white;
+  border-style: solid;
+  border-radius: 75px;
 }
 
 main {
@@ -74,15 +77,11 @@ main {
 
 h2 {
   font-size: 32px;
-  position: absolute;
-  top: 150px;
-  left: 100px;
+  text-align: center;
 }
 
-main p {
-  position: relative;
-  top: 75px;
-  left: 25px;
+main p,
+main ul {
   display: inline-block;
   font-size: 18px;
   float: left;
@@ -91,24 +90,232 @@ main p {
   border-style: solid;
   border-width: 5px;
   border-radius: 10px;
-  border-color: #666a86;
-  background-color: white;
+  border-color: #e71d36;
+  background-color: #fed0bb;
   max-width: 55%;
-  min-height: 500px;
+}
+
+.open p {
+  text-align: center;
+  display: block;
+  max-width: 33%;
+  align-content: center;
+  float: none;
+  margin: auto;
 }
 
 main img {
   display: inline-block;
-  width: 350px;
   float: right;
-  margin-right: 8%;
-  margin-top: 120px;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+#tetitle {
+  float: left;
+  margin: 0;
+  margin-left: 50px;
+}
+
+.teto {
+  margin: 0;
+}
+
+.teto p {
+  position: relative;
+  top: -80px;
+  min-height: 300px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.teto ul {
+  list-style-type: none;
+  margin-top: -40px;
+  margin-bottom: 125px;
+}
+
+.teto li {
+  display: inline-block;
+  padding: 10px;
+  padding-top: 0px;
+  max-width: 47%;
+}
+
+.teto iframe {
+  position: relative;
+  top: -10px;
+  left: 35px;
+  border-radius: 10px;
+}
+
+#SVTeto {
+  position: absolute;
+  top: 575px;
+  right: 250px;
+}
+
+#utauTeto {
+  position: absolute;
+  top: 1050px;
+  right: 475px;
+}
+
+#VPTeto {
+  position: absolute;
+  top: 1050px;
+  right: 50px;
+}
+
+.rei h3 {
+  font-size: 80px;
+  margin-left: 50px;
+}
+
+.rei p {
+  position: relative;
+  top: -40px;
+  min-height: 300px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.rei ul {
+  list-style-type: none;
+  margin-top: -5px;
+  margin-bottom: 125px;
+}
+
+.rei li {
+  display: inline-block;
+  padding: 10px;
+  padding-top: 0px;
+  max-width: 47%;
+}
+
+.rei iframe {
+  position: relative;
+  top: -10px;
+  left: 35px;
+  border-radius: 10px;
+}
+
+#adachiRei {
+  position: absolute;
+  top: 2000px;
+  right: 250px;
+}
+
+.defoko h3 {
+  font-size: 80px;
+  margin-left: 50px;
+}
+
+.defoko p {
+  position: relative;
+  top: -40px;
+  min-height: 300px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.defoko ul {
+  list-style-type: none;
+  margin-top: -5px;
+  margin-bottom: 125px;
+}
+
+.defoko li {
+  display: inline-block;
+  padding: 10px;
+  padding-top: 0px;
+  max-width: 47%;
+}
+
+.defoko iframe {
+  position: relative;
+  top: -10px;
+  left: 35px;
+  border-radius: 10px;
+}
+
+#utaUtane {
+  position: absolute;
+  top: 3150px;
+  right: 250px;
+}
+
+.ralsei h3 {
+  font-size: 80px;
+  margin-left: 50px;
+}
+
+.ralsei p {
+  position: relative;
+  top: -40px;
+  min-height: 300px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.ralsei ul {
+  list-style-type: none;
+  margin-top: -5px;
+  margin-bottom: 125px;
+}
+
+.ralsei li {
+  display: inline-block;
+  padding: 10px;
+  padding-top: 0px;
+  max-width: 47%;
+}
+
+.ralsei iframe {
+  position: relative;
+  top: -10px;
+  left: 35px;
+  border-radius: 10px;
+}
+
+#ralseiPixel {
+  position: absolute;
+  top: 4500px;
+  right: 550px;
+}
+
+#ralseiArt {
+  position: absolute;
+  top: 4600px;
+  right: 250px;
+}
+
+span {
+  position: relative;
+  left: 50px;
+}
+
+span a {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  display: block;
+}
+
+.break {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 footer {
-  background-color: #666a86;
-  position: fixed;
-  bottom: 0;
+  background-color: #432534;
+  position: absolute;
+  bottom: -4250px;
   left: 0;
   width: 100%;
   height: 50px;
