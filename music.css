@@ -12,12 +12,12 @@ li {
 }
 
 body {
-  background-color: #f4f4ff;
+  background-color: #d7c0d0;
 }
 
 nav {
-  background-color: #666a86;
-  color: aliceblue;
+  background-color: #3a4454;
+  color: #d7c0d0;
   font-size: 30px;
   position: fixed;
   z-index: 3;
@@ -31,15 +31,15 @@ nav {
 }
 
 .links a {
-  color: aliceblue;
+  color: #d7c0d0;
   text-decoration: none;
   margin-top: 25px;
 }
 
 .links a:hover {
-  color: #e71d36;
+  color: #6b4e71;
   border-style: solid;
-  border-color: #e71d36;
+  border-color: #6b4e71;
   border-radius: 10px;
   padding: 5px;
 }
@@ -62,9 +62,9 @@ nav {
 .logo img {
   position: relative;
   top: -15px;
-  right: -300px;
+  right: -350px;
   display: inline-block;
-  width: 225px;
+  width: 85px;
 }
 
 main {
@@ -73,39 +73,51 @@ main {
 
 h2 {
   font-size: 32px;
-  position: absolute;
-  top: 150px;
-  left: 100px;
+  text-align: center;
 }
 
 main p {
-  position: relative;
-  top: 75px;
-  left: 25px;
-  display: inline-block;
   font-size: 18px;
-  float: left;
-  margin: 50px;
+  margin: auto;
+  text-align: center;
   padding: 20px;
   border-style: solid;
   border-width: 5px;
   border-radius: 10px;
-  border-color: #666a86;
+  border-color: #6b4e71;
   background-color: white;
   max-width: 55%;
-  min-height: 500px;
+  min-height: 50px;
 }
 
-main img {
+main ul {
+  margin: 50px;
+}
+
+main li {
   display: inline-block;
-  width: 350px;
-  float: right;
-  margin-right: 8%;
-  margin-top: 120px;
+  width: 23%;
+  margin: 5px;
+  padding: 3px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+span {
+  font-size: 20px;
+}
+
+hr {
+  color: #6b4e71;
+  width: 95%;
 }
 
 footer {
-  background-color: #666a86;
+  background-color: #3a4454;
   position: fixed;
   bottom: 0;
   left: 0;
@@ -115,5 +127,5 @@ footer {
 
 footer p {
   text-align: center;
-  color: aliceblue;
+  color: #d7c0d0;
 }
