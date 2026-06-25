@@ -226,9 +226,62 @@ footer p {
 
 /*Media Querys*/
 
+@media screen and (max-width: 1675px) {
+  #utauTeto,
+  #VPTeto,
+  #ralseiPixel {
+    display: none;
+  }
+
+  #SVTeto {
+    top: 750px;
+  }
+
+  #adachiRei {
+    top: 1500px;
+  }
+
+  #utaUtane {
+    top: 3000px;
+  }
+
+  #ralseiArt {
+    top: 4200px;
+  }
+
+  article li {
+    display: block;
+  }
+}
+
 @media screen and (max-width: 1529px) {
   .links a:hover {
     border: none;
+  }
+}
+
+@media screen and (max-width: 1130px) {
+  article p,
+  article ul,
+  article h3 {
+    float: unset;
+    position: static;
+    margin: auto;
+    text-align: center;
+  }
+  #SVTeto,
+  #adachiRei,
+  #utaUtane,
+  #ralseiArt {
+    position: relative;
+    left: 40%;
+    top: -15%;
+  }
+
+  #tetitle {
+    float: unset;
+    position: relative;
+    left: 20%;
   }
 }
 
@@ -240,7 +293,4 @@ footer p {
   .logo img {
     right: -5%;
   }
-}
-
-@media screen and (max-width: 800px) {
 }
