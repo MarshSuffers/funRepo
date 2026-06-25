@@ -140,3 +140,46 @@ footer p {
   text-align: center;
   color: #c6d4ff;
 }
+
+/*Media Querys*/
+
+@media screen and (max-width: 1760px) {
+  h3 {
+    display: block;
+    margin: auto;
+    text-align: center;
+    color: aqua;
+  }
+
+  #synthV {
+    float: unset;
+    margin: auto;
+    margin-left: 45%;
+  }
+
+  #utau {
+    margin: auto;
+    margin-left: 40%;
+  }
+
+  #oUtau {
+    margin: auto;
+    margin-left: 40%;
+  }
+}
+
+@media screen and (max-width: 1529px) {
+  .links a:hover {
+    border: none;
+  }
+
+  .logo img {
+    right: -10%;
+  }
+}
+@media screen and (max-width: 1090px) {
+  .links li {
+    width: 55%;
+    top: -20px;
+  }
+}
