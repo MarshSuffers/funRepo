@@ -52,7 +52,6 @@ nav {
 .links li {
   position: relative;
   top: 12px;
-  display: inline-block;
   padding: 0;
   margin: 0;
   width: 15%;
@@ -62,7 +61,7 @@ nav {
 .logo img {
   position: relative;
   top: -15px;
-  right: -350px;
+  right: -18%;
   display: inline-block;
   width: 85px;
 }
@@ -87,7 +86,6 @@ main p {
   border-color: #6b4e71;
   background-color: white;
   max-width: 55%;
-  min-height: 50px;
 }
 
 main ul {
