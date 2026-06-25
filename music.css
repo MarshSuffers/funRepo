@@ -111,6 +111,14 @@ span {
   font-size: 20px;
 }
 
+a {
+  color: black;
+}
+
+a:hover {
+  color: #6b4e71;
+}
+
 hr {
   color: #6b4e71;
   width: 95%;
