@@ -212,8 +212,8 @@ span a {
 
 footer {
   background-color: #432534;
-  position: absolute;
-  bottom: -3700px;
+  position: fixed;
+  bottom: 0;
   left: 0;
   width: 100%;
   height: 50px;
@@ -222,4 +222,25 @@ footer {
 footer p {
   text-align: center;
   color: aliceblue;
+}
+
+/*Media Querys*/
+
+@media screen and (max-width: 1529px) {
+  .links a:hover {
+    border: none;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .links li {
+    width: 55%;
+    top: -20px;
+  }
+  .logo img {
+    right: -5%;
+  }
+}
+
+@media screen and (max-width: 800px) {
 }

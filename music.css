@@ -135,3 +135,37 @@ footer p {
   text-align: center;
   color: #d7c0d0;
 }
+
+/*Media Querys*/
+
+@media screen and (max-width: 1760px) {
+  main li {
+    width: 35%;
+    margin-left: 10%;
+  }
+}
+
+@media screen and (max-width: 1529px) {
+  .links a:hover {
+    border: none;
+  }
+}
+
+@media screen and (max-width: 1291px) {
+  main li {
+    width: 60%;
+    margin: 30px;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .links li {
+    width: 55%;
+    top: -20px;
+  }
+
+  .logo img {
+    right: -10%;
+  }
+}
